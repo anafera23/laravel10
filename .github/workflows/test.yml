@@ -23,7 +23,7 @@ jobs:
           name: Logs
           path: ./storage/logs
       - name: Slack Notification
-          uses: 8398a7/action-slack@v2
+          uses: 8398a7/action-slack
             with:
               status: ${{ job.status }}
               author_name: Integration Test # default: 8398a7@action-slack
